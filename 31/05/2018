@@ -17,7 +17,9 @@ También es fundamental saber en qué caso aplicar las comillas. Simples, comill
 
 Print: salida por teclado (permite mostrar texto en pantalla)
 
-Como el ejemplo más usado el famoso hola mundo print ("hola mundo")
+Como el ejemplo más usado el famoso hola mundo 
+
+print ("hola mundo")
 
 input:  es una función de entrada por teclado (permite tener texto escrito por teclado)
 
