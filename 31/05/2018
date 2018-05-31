@@ -1,0 +1,71 @@
+#Version de python 3.6
+#Sistema operativo que se esta aplicando esto windows 7
+#Editor de texto VSCODE
+
+#lo que he aprendido hasta ahora de las diferentes metodologías  de enseñanza
+
+Primero operaciones numéricas, enteros, boléanos, operaciones matemáticas el uso de imprimir 
+
+Como la sintaxis de python es muy limpia se pueden hacer operaciones matemáticas solo 
+Asignando los símbolos e imprimiendo el resultado.
+
+Pero se debe tener en cuenta que se debe declarar siempre una variable. 
+
+También es fundamental saber en qué caso aplicar las comillas. Simples, comillas, dobles y comillas triples 
+
+#algunos términos que se deben saber que son:
+
+Print: salida por teclado (permite mostrar texto en pantalla)
+
+Como el ejemplo más usado el famoso hola mundo print ("hola mundo")
+
+input:  es una función de entrada por teclado (permite tener texto escrito por teclado)
+
+Ejemplo: aplicando print e input
+
+print("¿Cómo se llama?")
+Nombre = input()
+print(f"Me alegro de conocerle, {nombre}") 
+
+En este ejemplo se imprime una pregunta y solicita una entrada del nombre por medio de input luego se imprime me alegro
+De conocerle. La f en este programa hace la función de  integrar una variable que sería lo que está entre corchete
+Que sería nombre es decir llama el nombre después de que lo ingresaron, toma el nombre y dice mucho gusto en conocerte 
+Añadiendo el nombre ya ingresado..
+
+Los operadores aritméticos que se pueden usar se representan normales como 
++ Suma
+-resta
+* Multiplicación
+/ División, // división entera
+** Exponente 
+% modulo 
+
+Ejemplos:
+
+Escribir un programa en el cual se ingresen cuatro números, calcular e informar la suma de los dos primeros y 
+El producto del tercero y el cuarto
+
+Solución:
+num1=int(input("Ingrese primer valor:"))
+num2=int(input("Ingrese segundo valor:"))
+num3=int(input("Ingrese tercer valor:"))
+num4=int(input("Ingrese cuarto valor:"))
+Suma=num1+num2
+Producto=num3*num4
+print("La suma de los dos primero valores es")
+print(suma)
+print("El producto del tercer y cuarto valor es")
+print(producto)
+
+Como se puede verificar se declaran 4 variables de los 4 números 
+Y con int e input se le solicitan que ingrese los valores luego se
+Declara suma, y se le  asigna la acción sumar número 1 y numero 2
+Luego se declara el producto multiplicar, luego se imprime el primer
+“print” seria haciendo un llamado al resultado y el segundo “print” seria
+Llamando el resultado de la suma lo mismo con el producto.
+
+Y con esta serie de códigos sencillos y comandos se puede hacer una secuencia 
+De diferentes operaciones matemáticas y variando.
+
+
+
